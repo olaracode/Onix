@@ -1,0 +1,40 @@
+.footerContainer {
+  background-color: #011627;
+  color: #e7b764;
+}
+.actualFooter {
+  padding: 30px;
+}
+.actualFooter > hr {
+  border: 2px solid #e7b764;
+  margin: auto;
+  width: 30%;
+}
+.copyright {
+  padding: 10px;
+  margin: auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  height: max-content;
+}
+.copyright > p {
+  padding: 0 5px;
+}
+.titulo {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+.icon {
+}
+.copyright > a {
+  padding: 0 30px;
+  text-decoration: none;
+  color: #e7b764;
+}
+@media (max-width: 400px) {
+  .actualFooter > hr {
+    width: 95%;
+  }
+}

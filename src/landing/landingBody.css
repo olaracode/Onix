@@ -1,0 +1,143 @@
+.threeContainer {
+  padding: 0 10vh;
+  position: relative;
+  z-index: 5;
+  top: -10vh;
+  background: none;
+}
+.firstPaper {
+  background-color: #181818 !important;
+  color: white !important;
+}
+.threetexto {
+  padding: 15px;
+}
+.threetexto > h3 {
+  padding: 0 0 7px;
+  color: #e7b764;
+}
+.SedeContainer {
+  padding: 10vh;
+}
+.sedesGrid {
+  border-radius: 2px;
+}
+.sedes {
+  background-color: #e7b764;
+}
+.sedesContainer {
+  padding: 15px;
+}
+.sedesContainer > h4 {
+  padding: 10px 0;
+}
+.quoteImg {
+  background-image: url("../images/9a7d1d9d9ae400cf76707f732dc2964b.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bienvenido {
+  padding: 10vh 10vh 15vh;
+  overflow-y: hidden;
+}
+.bienvenido > h3 {
+  padding: 0 0 5vh;
+}
+.bienvenidoP {
+  text-align: justify;
+}
+.talentoContainer {
+  padding: 15vh 10vh;
+}
+.talentoHeader {
+  margin: auto;
+  width: fit-content;
+  padding: 25px;
+}
+.talentoImgContainer {
+  margin: auto;
+  width: fit-content;
+  padding: 15px 0;
+  text-align: center;
+}
+.talentoImg {
+  margin: auto;
+  max-width: 250px;
+  border-radius: 50%;
+}
+.talentoImgContainer > h3 {
+  padding: 10px;
+}
+.talentoImgContainer > hr {
+  color: #e7b764;
+}
+.servicioContainer {
+  background-color: #181818;
+}
+.gridContainer {
+  color: white;
+  border-radius: 3px;
+}
+.servicioH3 {
+  color: #e7b764;
+}
+.gridServicio {
+  padding: 15vh 10vh;
+}
+.arquitectura {
+  background-image: url("../images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+.ingieneria {
+  padding-top: 30px;
+  background-image: url("../images/screen-0.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+@media (max-width: 800px) {
+  .threeContainer {
+    padding: 0 6vh;
+  }
+  .bienvenido {
+    padding: 6vh;
+  }
+  .talentoContainer {
+    padding: 6vh;
+    text-align: center;
+  }
+  .SedeContainer {
+    padding: 6vh;
+  }
+  .gridServicio {
+    padding: 6vh;
+  }
+}
+@media (max-width: 400px) {
+  .threeContainer {
+    padding: 0 6vh;
+  }
+  .bienvenido {
+    padding: 6vh;
+  }
+  .talentoContainer {
+    padding: 6vh;
+    text-align: center;
+  }
+  .SedeContainer {
+    padding: 6vh;
+  }
+  .gridServicio {
+    padding: 6vh;
+  }
+  .ingieneria1 {
+    padding-top: 30px;
+    background-image: url("../images/screen-0.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+  }
+}

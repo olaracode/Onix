@@ -1,0 +1,45 @@
+.modalContainer {
+  padding: 10vh;
+}
+.formContainer {
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+}
+.form {
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+.formContainer > h3 {
+  padding: 25px;
+}
+.formInput {
+  width: 300px;
+  padding: 0 0 30px !important;
+}
+.buttonDiv {
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+}
+.formButton {
+  padding: 10px !important;
+}
+.formImage {
+  background-image: url("../images/arch.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 800px) {
+  .modalContainer {
+    padding: 6vh;
+  }
+  .formInput {
+    width: 200px;
+  }
+  .formContainer {
+    padding: 0;
+  }
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+.header-image {
+  height: 90vh;
+  background-image: url("../images/9330411.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 1;
+}
+.title {
+  position: relative;
+  left: 10vh;
+  top: 30vh;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+.titleName {
+  text-align: left;
+  font-size: 10vh !important;
+  padding: 0 0 20px 0;
+}
+.title > p {
+  font-size: large;
+  font-weight: bold;
+}
+.titlep {
+  font-weight: bolder;
+}
+.cotizaButton {
+  height: 50px;
+  width: 200px;
+  background-color: #e7b764;
+  border: 1px solid black;
+  color: white;
+  font-size: large;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.cotizaButton:hover {
+  background: none;
+  border: 1px solid #e7b764;
+}
+
+.cotizaContainer {
+  position: relative;
+  left: 10vh;
+  top: 35vh;
+}
+
+@media (max-width: 400px) {
+  .title {
+    left: 6vh;
+  }
+}

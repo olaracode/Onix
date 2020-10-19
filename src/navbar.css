@@ -1,0 +1,30 @@
+.navBar {
+  height: 40px;
+  background-color: #011627;
+  position: fixed;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+.navBar > h3 {
+  padding: 0 10px;
+}
+.navBar > div {
+  padding: 0 10px;
+}
+.navBar > div > button {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.navBar > div > button:hover {
+  border: none;
+  background: none;
+  color: #e7b764;
+  cursor: pointer;
+}
