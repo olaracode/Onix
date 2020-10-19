@@ -6,13 +6,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={LandingPage} />
-        </Switch>
-        <Footer />
-      </BrowserRouter>
+      <NavBar />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
