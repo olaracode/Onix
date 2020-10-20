@@ -16,7 +16,7 @@ function Footer() {
           <p>Diseño y desarrollo: Octavio Lara</p>
         </div>
         <div className="copyright">
-          <a href="https.whatsapp.com/api/4149917175">
+          <a href="https://www.whatsapp.com/api/4149917175">
             <WhatsAppIcon />
           </a>
           <a href="#">
